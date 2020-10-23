@@ -25,11 +25,11 @@ Contents
    :maxdepth: 2
    :caption: Advanced
 
-    advanced/erc20_transformations.rst
-    advanced/aggregation.rst
-    advanced/weth_wrapping.rst
-    advanced/private_liquidity_pools.rst
-    advanced/request_for_quote.rst
+   advanced/erc20_transformations.rst
+   advanced/aggregation.rst
+   advanced/weth_wrapping.rst
+   advanced/private_liquidity_pools.rst
+   advanced/request_for_quote.rst
 
 .. toctree::
    :maxdepth: 2
