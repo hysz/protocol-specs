@@ -23,6 +23,16 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: Advanced
+
+    advanced/erc20_transformations.rst
+    advanced/aggregation.rst
+    advanced/weth_wrapping.rst
+    advanced/private_liquidity_pools.rst
+    advanced/request_for_quote.rst
+
+.. toctree::
+   :maxdepth: 2
    :caption: Architecture
 
    architecture/overview.rst
@@ -33,35 +43,20 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tokenomics & Staking
+   :caption: ZRX Tokenomics
 
-   dummy.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Governance
-
-   dummy.rst
+   tokenomics/protocol_fees.rst
+   tokenomics/staking.rst
+   tokenomics/governance.rst
+   tokenomics/voting.rst
 
 .. toctree::
    :maxdepth: 2
-   :caption: Audits
+   :caption: Additional Material
 
-   dummy.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Bounties
-
-   dummy.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contributing
-
-   dummy.rst
-
-
+   additional/audits.rst
+   additional/bounties.rst
+   additional/contributing.rst
 
 
 Indices and tables
