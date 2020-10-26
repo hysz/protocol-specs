@@ -13,23 +13,40 @@ Limit Order
         IERC20 takerToken;
         uint128 makerAmount;
         uint128 takerAmount;
-        uint256 pool;
-        bytes32 salt;
-        uint64 expiry;
         address feeRecipient;
         uint128 feeAmount;
         address taker;
         address sender;
+        uint256 pool;
+        uint64 expiry;
+        bytes32 salt;
     }
 
-=====  =====  ======
-Field  Type   Description
-=====  =====  ======
-makerToken  False  False
-True   False  True
-False  True   True
-True   True   True
-=====  =====  ======
++--------------+---------+-------------+
+| Field        | Type    | Description |
++==============+=========+=============+
+| makerToken   | address | column 3    |
++--------------+---------+-------------+
+| takeToken    | address | column 3    |
++--------------+---------+-------------+
+| makerAmount  | uint128 | column 3    |
++--------------+---------+-------------+
+| takerAmount  | uint128 | column 3    |
++--------------+---------+-------------+
+| feeRecipient | address | column 3    |
++--------------+---------+-------------+
+| feeAmount    | uint128 | column 3    |
++--------------+---------+-------------+
+| taker        | address | column 3    |
++--------------+---------+-------------+
+| sender       | address | column 3    |
++--------------+---------+-------------+
+| pool         | uint256 |             |
++--------------+---------+-------------+
+| expiry       | uint64  |             |
++--------------+---------+-------------+
+| salt         | bytes32 |             |
++--------------+---------+-------------+
 
 RFQ Order
 ------------------

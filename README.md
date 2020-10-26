@@ -12,3 +12,6 @@ cd docs
 make html
 open _build/html/index.html
 ```
+
+### Tips
+Generate RST tables [here](https://www.tablesgenerator.com/text_tables#).
