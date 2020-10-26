@@ -16,7 +16,7 @@ Contents
    :maxdepth: 2
    :caption: Basics
 
-   basics/orders.rst
+   basics/orders.md
    basics/functions.rst
    basics/events.rst
    basics/allowances.rst

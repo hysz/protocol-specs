@@ -1,10 +1,14 @@
-Dependencies
-============
-pip3 install sphinx recommonmark
+### Dependencies
+```bash
+    pip3 install sphinx recommonmark
+```
 
-Syntax
-============
-.. _Markdown: https://en.wikipedia.org/wiki/Markdown
-.. _Restructured Text: https://en.wikipedia.org/wiki/ReStructuredText
+### Syntax
+Documentation can be written in [Markdown](https://en.wikipedia.org/wiki/Markdown) (.md) or [Restructured Text](https://en.wikipedia.org/wiki/ReStructuredText) (.rst).
 
-Documentation can be written in `Markdown`_ (.md) or `Restructured Text`_ (.rst).
+### Build and Test
+```bash
+cd docs
+make html
+open _build/html/index.html
+```
