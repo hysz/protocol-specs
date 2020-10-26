@@ -10,14 +10,3 @@ Presently, while we are in beta, allowances should be set on the `Allowance Targ
 The motivation for eliminating the separate Allowance Target in the official release is
 to reduce transaction costs. Depending on the operational overhead for our integrators,
 we may support allowances on both the Exchange V4 & the Allowance Target after the officual relase.
-
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
-False  False  False
-True   False  True
-False  True   True
-True   True   True
-=====  =====  ======
